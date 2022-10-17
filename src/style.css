@@ -56,15 +56,16 @@ header {
   margin-bottom: 20px;
 }
 
-.scores_name p:nth-child(even) {
-  background: #d3cece;
-}
-
 .scores_name p {
   padding: 2px;
   font-weight: 550;
   font-size: 14px;
 }
+
+.scores_name p:nth-child(even) {
+  background: #d3cece;
+}
+
 .recent_score h2 {
   font-size: 20px;
 }
