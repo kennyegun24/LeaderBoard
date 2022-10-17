@@ -1,7 +1,8 @@
-import { score } from "..";
-import { namVal } from "..";
+import { score, namVal } from './newScore.js';
 
-export const clearInput = () => {
-  namVal.value = ''
-  score.value = ''
-}
+const clearInput = () => {
+  namVal.value = '';
+  score.value = '';
+};
+
+export default clearInput;
