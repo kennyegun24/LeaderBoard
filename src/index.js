@@ -1,6 +1,6 @@
 import './style.css';
 import clearInput, { score, namVal } from './modules/clearInput.js';
-import { getScores, addScore } from './modules/api';
+import { getScores, addScore, scoreDisplay } from './modules/api';
 
 const form = document.querySelector('.form');
 const refresh = document.querySelector('.refresh');
@@ -10,10 +10,11 @@ form.addEventListener('submit', (e) => {
 
   const scores = score.value;
   const nameVal = namVal.value;
-
+  scoreDisplay.innerHTML += `<p>${nameVal}: ${scores} </p>`;
   addScore(nameVal, scores);
-  getScores();
   clearInput();
 });
 
-refresh.addEventListener('click', getScores);
+refresh.addEventListener('click', () => {
+  getScores();
+});
