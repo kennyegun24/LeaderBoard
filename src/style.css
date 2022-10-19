@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_direction {
+  flex-direction: column;
+}
+
+.justify_cntr {
+  justify-content: center;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  border: 5px solid;
+  background: rgb(232, 229, 218);
+}
+
+header {
+  margin-top: 20px;
+  padding-left: 2%;
+}
+
+.main__section {
+  padding: 24px 5%;
+  background: rgb(217, 112, 112);
+}
+
+.second__section {
+  margin: 0 5%;
+}
+
+.third_section {
+  margin: 0 10px;
+  align-items: center;
+  width: 30%;
+}
+
+.scores_name {
+  border: 3px solid black;
+  max-height: 400px;
+  overflow: auto;
+  border-radius: 10px;
+  background: #111;
+}
+
+.recent_score {
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.scores_name p {
+  padding: 2px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.scores_name div {
+  padding-left: 10px;
+  border-radius: 15px;
+}
+
+.scores_name div:nth-child(even) {
+  background: red;
+  color: #fff;
+}
+
+.scores_name div:nth-child(odd) {
+  background: rgb(255, 255, 255);
+  color: #111;
+}
+
+.scores_name::-webkit-scrollbar {
+  display: none;
+}
+
+.recent_score h2 {
+  font-size: 20px;
+}
+
+.add_score {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+form {
+  position: relative;
+  height: 100px;
+}
+
+.third_section input {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.third_section input:nth-child(2) {
+  margin-top: 15px;
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+button {
+  box-shadow: 0 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
