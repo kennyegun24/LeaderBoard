@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
 
   const scores = score.value;
   const nameVal = namVal.value;
-  scoreDisplay.innerHTML += `<p>${nameVal}: ${scores} </p>`;
+  scoreDisplay.innerHTML += `<div><p>Name: ${nameVal}</p> <br> <p>Scoore: ${scores} </p>`;
   addScore(nameVal, scores);
   clearInput();
 });
