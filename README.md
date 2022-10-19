@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 2. Clone this repo in your terminal or git bash using the command
 
    ```
-   
+   git clone https://github.com/kennyegun24/LeaderBoard.git
    ```
 
 3. run `npm install ` to install all the necessary dependencies including the linters
