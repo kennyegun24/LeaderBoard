@@ -9,8 +9,7 @@ This project was also created to test my knowledge on webpack in general and API
 - Technologies used: Linters, Git and Github, webpack.
 
 ## Live Demo
-
-### TBD
+[live link](https://kennyegun24.github.io/LeaderBoard/dist/)
 
 ## Getting Started
 
