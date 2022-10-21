@@ -1,4 +1,5 @@
-import './style.css';
+import './index.css';
+import './modules/darkLightMode';
 import clearInput, { score, namVal } from './modules/clearInput.js';
 import { getScores, addScore, scoreDisplay } from './modules/api';
 
@@ -10,7 +11,7 @@ form.addEventListener('submit', (e) => {
 
   const scores = score.value;
   const nameVal = namVal.value;
-  scoreDisplay.innerHTML += `<div><p>Name: ${nameVal}</p> <br> <p>Scoore: ${scores} </p>`;
+  scoreDisplay.innerHTML += `<div class="api_lists"><p> ${nameVal}</p> <p> ${scores} </p>`;
   addScore(nameVal, scores);
   clearInput();
 });
