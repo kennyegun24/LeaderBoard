@@ -14,25 +14,34 @@
       </h1>
     </header>
 
-    <section class="main__section align_center flex">
+    <section class="main__section">
       <section class="second__section">
-        <div class="flex recent_score">
+        <div class="flex align recent_score">
           <h2>Recent Scores</h2>
+          <button class="mode">Dark</button>
+          <button class="lMode">Light</button>
           <button class="refresh">Refresh</button>
+        </div>
+        <div class="score_lists">
+          <p>Name</p>
+          <p>Score</p>
         </div>
         <div class="scores_name">
 
         </div>
       </section>
-      <section class="flex flex_direction third_section">
+      <section class=" third_section">
         <h2 class="add_score">Add Your Score</h2>
         <form class="form">
           <input type="letters" placeholder="Your name" class="name">
+          <br>
           <input type="number" placeholder="Your score" class="score">
+          <br>
           <button class="button">Submit</button>
         </form>
       </section>
     </section>
+
   </main>
 
 </body>
